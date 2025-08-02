@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "financer",
+  "name": "financer-backend",
   "main": "src/index.ts",
   "compatibility_date": "2025-08-02",
   "compatibility_flags": [
