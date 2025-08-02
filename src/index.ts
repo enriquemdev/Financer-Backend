@@ -14,7 +14,7 @@ const db = drizzle({
 });
 
 app.get('/', (c) => {
-  return c.text('Hello Hono!!!')
+  return c.text('Hello Hono?')
 })
 
 app.get('/test', async (c) => {
@@ -23,7 +23,7 @@ app.get('/test', async (c) => {
   }
 
   await db.insert(testTable).values(record);
-  
+
   return c.text('tested db')
 })
 
